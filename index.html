@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Your Tasks</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <input type="text" class="input" placeholder="The Length Of Task Should Be From 1 To 35 Chars" />
+            <input type="submit" value="Add Task" class="add" />
+            <p id="taskError1">The Length Of The Task Is More Than 35 Characters</p>
+            <p id="taskError2">You Shouldn't Create Task Without Any Characters</p>
+        </div>
+        <div class="tasks">
+            <p id="tasksTitle">The Task That You Should To Do</p>
+            <button id="clearBtn">Clear All</button>
+        </div>
+    </div>
+    <script src="main.js"></script> 
+</body>
+</html>
